@@ -70,9 +70,10 @@ class MainActivity : AppCompatActivity() {
      * Configura a interface inicial
      */
     private fun setupUI() {
-        // Define o título com o nome do usuário
-        supportActionBar?.title = "Diário de Viagens - $currentUsername"
-        
+        // Define o título fixo
+        supportActionBar?.title = "Diário de Viagens"
+        // Mostra o nome do usuário no topo
+        binding.tvUsername.text = "Usuário: $currentUsername"
         // Configura o spinner de filtro por país
         setupCountryFilter()
     }

@@ -10,6 +10,17 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+        <!-- Nome do usuário -->
+        <TextView
+            android:id="@+id/tvUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usuário: admin"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp" />
+
         <!-- Cabeçalho com filtros -->
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
