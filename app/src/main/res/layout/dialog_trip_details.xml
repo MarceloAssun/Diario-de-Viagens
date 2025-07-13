@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Nome da viagem -->
+        <TextView
+            android:id="@+id/tvDetailTripName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nome da Viagem"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- País -->
+        <TextView
+            android:id="@+id/tvDetailCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="País"
+            android:textSize="16sp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Período -->
+        <TextView
+            android:id="@+id/tvDetailDateRange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Data início - Data fim"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Nota -->
+        <TextView
+            android:id="@+id/tvDetailRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nota: 0"
+            android:textSize="14sp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Comentário -->
+        <TextView
+            android:id="@+id/tvDetailComment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comentário da viagem"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp"
+            android:ellipsize="end"
+            android:maxLines="4" />
+
+        <!-- Título locais -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Locais Visitados"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Lista de locais -->
+        <LinearLayout
+            android:id="@+id/layoutDetailPlaces"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+</ScrollView> 
