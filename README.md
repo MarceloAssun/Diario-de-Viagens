@@ -76,7 +76,7 @@ app/src/main/java/com/trabalhofinal/diariodeviagens/
 
 1. Clone o repositório:
    ```sh
-   git clone https://github.com/seu-usuario/DiariodeViagens.git
+   https://github.com/MarceloAssun/Diario-de-Viagens.git
    ```
 2. Abra o projeto no Android Studio
 3. Sincronize o Gradle
@@ -124,13 +124,5 @@ Para facilitar os testes, o aplicativo cria automaticamente um usuário padrão:
 - **Validações robustas**: Campos obrigatórios
 - **Locais visitados**: Múltiplos locais por viagem, com edição e remoção
 - **UX aprimorada**: Feedback visual e mensagens
-
-## Próximas Implementações
-
-- [ ] Fotos das viagens
-- [ ] Exportação de dados
-- [ ] Backup na nuvem
-
----
 
 **Desenvolvido para a disciplina de Dispositivos Móveis** 
